@@ -322,6 +322,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 938559897089551867, guid: 79eeb932f25ab448fafb0a0ec694e8ea, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 3874156813537816845, guid: d9f17cfda946946dba57a0b4ec5b482a, type: 3}
+    - target: {fileID: 938559897089551867, guid: 79eeb932f25ab448fafb0a0ec694e8ea, type: 3}
       propertyPath: leftAndRightEdge
       value: 20
       objectReference: {fileID: 0}
@@ -368,6 +372,10 @@ PrefabInstance:
     - target: {fileID: 4431019971039074555, guid: 79eeb932f25ab448fafb0a0ec694e8ea, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799549777459883422, guid: 79eeb932f25ab448fafb0a0ec694e8ea, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
