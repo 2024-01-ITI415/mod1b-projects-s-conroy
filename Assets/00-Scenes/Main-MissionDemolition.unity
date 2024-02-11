@@ -193,7 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'Switch View
+
+'
 --- !u!222 &107585971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1008,9 +1010,9 @@ MonoBehaviour:
   uitLevel: {fileID: 478187783}
   uitShots: {fileID: 1609355585}
   uitButton: {fileID: 107585970}
-  castlePos: {x: 50, y: -9, z: 0}
+  castlePos: {x: 50, y: -9.5, z: 0}
   castles:
-  - {fileID: 0}
+  - {fileID: 1067985056}
   level: 0
   levelMax: 0
   shotsTaken: 0
