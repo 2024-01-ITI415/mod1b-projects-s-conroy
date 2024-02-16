@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 7363162056093134252}
   - component: {fileID: 5971852823258950363}
   - component: {fileID: 4239227175619208668}
+  - component: {fileID: 2017602860904541269}
+  - component: {fileID: -7620844310378365355}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,3 +120,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b229e48b0f604133ba5aaf85c979bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2017602860904541269
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4183403242687312496}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-7620844310378365355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4183403242687312496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a26b57b986c45b59022cab43b404b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstacleprefab: {fileID: 0}
+  speed: 9
+  leftAndRightEdge: 15
+  chanceToChangeDirections: 0.1
+  secondsBetweenObstacleDrops: 1
