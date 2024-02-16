@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class bigsun : MonoBehaviour
 {
+    [Header("Set in Inspector")]
     
     public GameObject  Obstacleprefab;
-    public float       secondsBetweenObstacleDrops = 1f;
+    public float   speed = 1f;
+    public float   leftAndRightEdge = 10f;
+    public float   chanceToChangeDirections = 0.1f;
+    public float   secondsBetweenObstacleDrops = 1f;
 
 
 
