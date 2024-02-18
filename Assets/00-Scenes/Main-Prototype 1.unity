@@ -1057,6 +1057,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1411228652749471629, guid: 5838a4fbdf92e484abfb9db960a71869, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411228652749471629, guid: 5838a4fbdf92e484abfb9db960a71869, type: 3}
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
