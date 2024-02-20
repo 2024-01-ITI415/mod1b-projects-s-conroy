@@ -22,7 +22,7 @@ public class bigsun : MonoBehaviour
                    GameObject Obstacle = Instantiate<GameObject>(Obstacleprefab);
                    Obstacle.transform.position = transform.position;
                    Invoke("DropObstacle", secondsBetweenObstacleDrops);
-}
+        }
 
     // Update is called once per frame
     void Update()
@@ -35,7 +35,7 @@ public class bigsun : MonoBehaviour
     }    else if (pos.x > leftAndRightEdge) {
               speed = -Mathf.Abs(speed);
         }   
-}
+    }
     void FixedUpdate() {
         if ( Random.value < chanceToChangeDirections ) {
              speed *= -1;

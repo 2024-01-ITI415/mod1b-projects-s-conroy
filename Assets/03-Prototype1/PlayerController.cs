@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
          rb.AddForce(movement * speed);
      }
     
-    void OnTriggerEnter(Collider other) 
+    void OnCollisionEnter(Collision other) 
     {
          if (other.gameObject.CompareTag("Obstacle")) {
             other.gameObject.SetActive(false);
